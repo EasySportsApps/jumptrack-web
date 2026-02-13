@@ -1,0 +1,27 @@
+body {
+    font-family: Arial;
+    text-align: center;
+}
+
+video, canvas {
+    width: 640px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+canvas {
+    z-index: 10;
+}
+
+table {
+    margin-top: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 8px;
+}
